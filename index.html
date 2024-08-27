@@ -42,11 +42,11 @@
       </div>
 
       <div class="hidden lg:flex gap-10  text-slate-500 items-center text-xl">
-        <h4 class="font-bold text-xl text-slate-700">Home</h4>
-        <h4>Services</h4>
-        <h4>Portfolio</h4>
-        <h4>Blogs</h4>
-        <h4>Contact Us</h4>
+        <h4 class="font-bold cursor-pointer text-xl text-slate-700">Home</h4>
+        <h4 class="cursor-pointer">Services</h4>
+        <h4 class="cursor-pointer">Portfolio</h4>
+        <h4 class="cursor-pointer" >Blogs</h4>
+        <h4 class="cursor-pointer">Contact Us</h4>
       </div>
 
       <div>
@@ -360,18 +360,25 @@
 
         <form class="flex justify-center items-center flex-col gap-8">
           <div class="flex flex-col lg:flex-row gap-5 w-full justify-center items-center">
-            <input class="p-5 rounded-full w-[80%] lg:w-[29.5%] placeholder:text-gray-400 placeholder:text-xl" type="text" placeholder="First Name*">
-            <input class="p-5 rounded-full w-[80%] lg:w-[29.5%] placeholder:text-gray-400 placeholder:text-xl" type="text" placeholder="Last Name*">
+            <input class="p-5 rounded-full w-[80%] lg:w-[29.5%] placeholder:text-gray-400 placeholder:text-xl"
+              type="text" placeholder="First Name*">
+            <input class="p-5 rounded-full w-[80%] lg:w-[29.5%] placeholder:text-gray-400 placeholder:text-xl"
+              type="text" placeholder="Last Name*">
           </div>
           <div class="flex flex-col lg:flex-row items-center gap-5 w-full justify-center">
-            <input class="p-5 rounded-full w-[80%] lg:w-[29.5%] placeholder:text-gray-400 placeholder:text-xl" type="number" placeholder="Phone Number*">
-            <input class="p-5 rounded-full w-[80%] lg:w-[29.5%] placeholder:text-gray-400 placeholder:text-xl" type="email" placeholder="Email*">
+            <input class="p-5 rounded-full w-[80%] lg:w-[29.5%] placeholder:text-gray-400 placeholder:text-xl"
+              type="number" placeholder="Phone Number*">
+            <input class="p-5 rounded-full w-[80%] lg:w-[29.5%] placeholder:text-gray-400 placeholder:text-xl"
+              type="email" placeholder="Email*">
           </div>
-          <textarea class="p-5 rounded-3xl w-[80%] lg:w-3/5 h-52 placeholder:text-gray-400 placeholder:text-xl" placeholder="Write your message here"></textarea> 
+          <textarea class="p-5 rounded-3xl w-[80%] lg:w-3/5 h-52 placeholder:text-gray-400 placeholder:text-xl"
+            placeholder="Write your message here"></textarea>
         </form>
 
-        <button class="flex items-center text-center m-auto mt-10 w-full gap-8 text-2xl font-bold ">
-          <span class="bg-lime-300 px-5 py-3 rounded-full flex items-center justify-center gap-2 w-[80%] lg:w-3/5 m-auto">Send Mail
+        <button class="flex items-center text-center m-auto mt-10 w-full gap-8 text-xl lg:text-2xl font-bold ">
+          <span
+            class="bg-lime-300 px-5 py-2 lg:py-3 rounded-full flex items-center justify-center gap-2 w-[80%] lg:w-3/5 m-auto">Send
+            Mail
             <i
               class="fa-solid fa-arrow-right text-lg p-1.5 bg-zinc-900 text-white -rotate-45 rounded-full w-8 h-8 flex justify-center items-center mt-1"></i>
           </span>
@@ -382,8 +389,41 @@
     </section>
   </main>
 
-  <footer>
+  <footer class="bg-zinc-900 py-20">
 
+    <section>
+
+        <div class="font-bold text-4xl lg:text-5xl lg:mb-2 m-auto">
+          <h3 class="flex gap-2 items-center text-white justify-center">
+            <i
+              class="fa-solid fa-arrow-right text-xl p-1.5 bg-lime-300 -rotate-45 rounded-full w-10 h-10 flex justify-center items-center mt-1 text-black">
+            </i>Rinterio
+          </h3>  
+
+          <p
+            class="text-center lg:text-center text-lg lg:text-xl mt-4 lg:mt-6 w-10/12 lg:w-2/5 m-auto text-neutral-500 font-medium">
+            The barn house captivates with its blend of rustic
+            charm and modern sophistication, featuring
+            weathered wood, sleek metal accents</p>
+        </div>
+
+      <div class="flex flex-col lg:flex-row justify-center gap-5 lg:gap-28 text-slate-300 items-center text-xl lg:text-2xl mt-10 lg:mt-16">
+        <h4 class="font-normal cursor-pointer text-xl lg:text-2xl text-slate-300">Home</h4>
+        <h4 class="cursor-pointer">Services</h4>
+        <h4 class="cursor-pointer">Portfolio</h4>
+        <h4 class="cursor-pointer">Blogs</h4>
+        <h4 class="cursor-pointer">Contact Us</h4>
+      </div>
+
+      <button class="flex items-center m-auto gap-8 text-xl font-bold mt-10 lg:mt-16 pb-10">
+        <span class="bg-lime-300 px-12 py-3 rounded-full flex items-center gap-2">Book Consult
+          <i
+            class="fa-solid fa-arrow-right text-lg p-1.5 bg-zinc-900 text-white -rotate-45 rounded-full w-8 h-8 flex justify-center items-center mt-1"></i>
+        </span>
+      </button>
+
+
+    </section>
   </footer>
 
 </body>
